@@ -1,13 +1,15 @@
-<? $name = "eli"
+<!--
+<? $name = "eli" ?>
 <form action="?" method="post">
 <input type="text" name="name">
-<input type="text" name="lastname">
+<input type="text" name="lastname" value="<?=$name; ?>">// in the value section you can use both = or echo as echo.//
 <input type="submit"/>
 </form>
+-->
 
 
 <!--<?php
-echo:tst
+echo:"tst"
 //Other processes use these to print to screen
    /* alert
     print
