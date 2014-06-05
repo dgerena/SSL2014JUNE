@@ -1,34 +1,22 @@
 
-<?php
+<?php 
+$lname = "Gerena" ?>
+<form action="" method="POST">
+    <input type="text" name="name">
+    <input type="text" name="lastname" value="<?=$lname;?>">
+    <input type="submit"/>
+</form>
+// in the value section you can use both = or echo as echo.//
+<?php 
+$myArray= array("name"=>$_POST["name"],"lname"=>$_POST["lastname"])
+var_dump($myArray);
+?>
+<?
 //phpinfo();
 //$name ='Eli'; //
 // javascript and php
 // java style var -> public string name = eli ;
-?>
-<?php $name = "eli" ?>
-<form action="" method="post">
-    <input type="text" name="name">
-    <input type="text" name="lastname" value="<?=$name;?>">
-    <input type="submit"/>
-</form>
-// in the value section you can use both = or echo as echo.//
 
-
-
-<?php 
-    $myArray= array("name"=>$_POST["name"],"lname"=>$_POST["lastname"])
-    var_dump($myArray);
-?>
-
-
-
-
-
-
-
-
-
-<?
 //echo:"tst"
 //Other processes use these to print to screen
    /* alert

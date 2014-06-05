@@ -1,10 +1,4 @@
 <?php
-session_start()
-ini_set('session.gc_maxlifetime',60);
-echo($_SESSION);
-?>
-
-<? <?php
 public function msg($msg){
     $container = imagecreate(300,200);
     $black = imagecolorallocate($container,0,0,0);
@@ -17,4 +11,5 @@ public function msg($msg){
     imagepng($container,null);
     imagedestroy($container);
 };
-?>?>
+msg
+?>
