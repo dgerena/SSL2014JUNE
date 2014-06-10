@@ -4,6 +4,9 @@ $css='';
 if(isset($_GET['yaName'])){
 	$css="has-error";
 	$error='<label class="control-label">YOU FAIL, GOOD DAY SIR!</label><img src="http://25.media.tumblr.com/tumblr_m0nc7fj44j1rosg7go1_250.gif"/>';
+}else{
+	
+
 }
 
 ?>

@@ -8,4 +8,5 @@ if(isset($_SESSION['userId'])||isset($_GET['yaName'])){
 }else{
 	require_once('views/home.php');
 }
+var_dump($_SESSION)
 ?>

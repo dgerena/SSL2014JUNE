@@ -1,7 +1,19 @@
 <?php
-class usersModel{
+// //db.php
+// class db{
+// 	public function __construct(){
+// 		$db = PDO()...
+// 		$conn = $db;
+// 	}
+// }
+// This is a demo as how to make a single connection that each one will have through ' extends db' 
+// //userM.php
+// include 'db.php';
+				/*extends db{*/
+class usersModel {
 	function login($username,$pass){
 		global $conn;
+			// $this->
 		$sqlstmt=$conn->prepare("select * from peeps where yaName='$username'and yaPass='$pass';");
 		$sqlstmt->execute();
 		$results=$sqlstmt->fetchAll(PDO::FETCH_ASSOC);

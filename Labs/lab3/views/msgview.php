@@ -13,10 +13,14 @@ $mug='$yaMug'
 	<body>
 		<h1 class="col-md-12 col-sm-12">hello world</h1>
 		<form class="col-md-12 col-sm-12 <?=$css?>" method='GET'>
-			<?=$error?>
-			<input type='text' name='yaName' class="form-control"/>
-			<input type='text' name='yaPass' class="form-control">
-			<button class="btn btn-default">Metric BUT TON</button>
+			<input type="text" name="blogtitle" placeholder="Your Title here."></input>
+			<input type="textarea" name="text" row="4" cols="50" placeholder="Your Message Here.">
+			</input>
+			<input type="submit"/>
 		</form>
 	</body>
 </html>
+
+
+<?php 
+?>
