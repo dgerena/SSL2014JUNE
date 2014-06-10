@@ -6,6 +6,6 @@ $conn = new PDO('mysql:host=localhost;dbname=tbd;port=8889;','root','root');
 if(isset($_SESSION['userId'])||isset($_GET['yaName'])){
 	require_once('controllers/users.php');
 }else{
-	require_once('home.html');
+	require_once('views/home.php');
 }
 ?>
