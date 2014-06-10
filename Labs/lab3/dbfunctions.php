@@ -43,3 +43,4 @@ function update($conn){
         echo($errors[2]);
     };
 };
+?>
