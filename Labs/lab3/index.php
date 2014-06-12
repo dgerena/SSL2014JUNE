@@ -6,7 +6,8 @@ $conn = new PDO('mysql:host=localhost;dbname=tbd;port=8889;','root','root');
 if(isset($_SESSION['userId'])||isset($_GET['yaName'])){
 	require_once('controllers/users.php');
 }else{
-	require_once('views/home.php');
+	include 'views/home.php';
 }
-var_dump($_SESSION)
+// var_dump($_SESSION);
+
 ?>
